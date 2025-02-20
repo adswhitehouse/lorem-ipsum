@@ -52,6 +52,70 @@ select {
 }
 /* CSS Reset */
 
+/* Body */
 body {
   font-family: "Poppins", serif;
+  background-color: #f0f7fc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 2rem 2rem 2rem;
+  text-align: center;
+  color: #112836;
+}
+
+/* Header */
+header {
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+/* Main */
+main {
+  max-width: 40rem;
+}
+
+/* Input Area */
+.input-container {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.input-title {
+  letter-spacing: 0.1rem;
+}
+
+.paragraph-input {
+  padding: 0.25rem;
+  color: #112836;
+  flex-shrink: 1;
+  width: 4rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.paragraph-input:focus {
+  outline-color: #51aadd;
+}
+
+.button-input {
+  padding: 0.25rem 0.75rem;
+  text-transform: uppercase;
+  color: #112836;
+  border-radius: 0.25rem;
+  border: none;
+  background-color: #51aadd;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button-input:hover {
+  background-color: #112836;
+  color: #51aadd;
 }
