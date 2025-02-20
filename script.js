@@ -49,4 +49,5 @@ function createLorem() {
       randomTextContainer.innerText += `${item} \n \n`;
     });
   }
+  paragraphInput.value = "";
 }
